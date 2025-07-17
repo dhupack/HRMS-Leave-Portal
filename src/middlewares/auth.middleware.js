@@ -3,7 +3,6 @@ const httpStatus = require('../utils/httpStatus');
 const messages = require('../utils/messages');
 const User = require('../models/user.model');
 
-
 const auth = async (req, res, next) => {
   try {
     const authHeader = req.headers.authorization;
