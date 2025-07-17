@@ -200,6 +200,7 @@ exports.getProfile = async (userId) => {
   return await User.findById(userId).select('-password');
 };
 
+
 exports.updateProfile = async (userId, updateData) => {
   const { name, profilePic } = updateData;
   return await User.findByIdAndUpdate(

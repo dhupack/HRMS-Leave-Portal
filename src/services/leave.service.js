@@ -81,6 +81,7 @@ exports.getLeaves = async (userId, query) => {
   return leaves;
 };
 
+
 exports.getLeaveById = async (leaveId, userId) => {
   return await Leave.findOne({ _id: leaveId, user: userId });
 };

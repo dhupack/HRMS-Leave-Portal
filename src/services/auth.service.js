@@ -43,6 +43,7 @@ const verifyOtp = async (email, enteredOtp) => {
   return { success: true, status: httpStatus.OK, message: messages.OTP_VERIFIED };
 };
 
+
 module.exports = {
   generateOtp,
   sendOtpEmail,
