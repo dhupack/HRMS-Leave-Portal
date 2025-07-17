@@ -8,4 +8,3 @@ router.get('/', auth, leaveController.getLeaves);
 router.get('/:leaveId', auth, leaveController.getLeaveById);
 
 module.exports = router;
-
