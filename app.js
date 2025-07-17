@@ -10,7 +10,6 @@ const path = require('path');
 
 dotenv.config();
 global.logger = require('./src/utils/logger');
-
 const app = express();
 
 
