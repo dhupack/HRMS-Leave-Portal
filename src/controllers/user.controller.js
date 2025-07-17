@@ -88,9 +88,6 @@ exports.verifyOtp = async (req, res) => {
 };
 
 
-
-
-
 exports.updateProfile = async (req, res) => {
   try {
     const user = req.user;
